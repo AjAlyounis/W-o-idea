@@ -1,14 +1,18 @@
 
 <div class="card card-body">
-    <h3>Video Idea</h3>
+    <h3>Workorder</h3>
     <form action="/ideas" method="post">
         <div class="form-group">
-            <labe for="title">Title</labe>
+            <labe for="title">W/o Name</labe>
             <input type="text" class="form-control" name="title" required>
         </div>
 
         <div class="form-group">
-            <labe for="details">Details</labe>
+            <labe for="details">Description</labe>
+            <textarea class="form-control" name="details" required ></textarea>
+        </div>
+        <div class="form-group">
+            <labe for="details">Part number</labe>
             <textarea class="form-control" name="details" required ></textarea>
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>

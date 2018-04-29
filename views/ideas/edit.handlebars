@@ -9,11 +9,11 @@
 {{/each}}
 
 <div class="card card-body">
-    <h3>Edit Video Idea</h3>
+    <h3>Edit W/O </h3>
     <form action="/ideas/{{idea.id}}?_method=PUT" method="post">
         <input type="hidden" name="_method" value="PUT">
         <div class="form-group">
-            <labe for="title">Title</labe>
+            <labe for="title">W/O</labe>
             <input type="text" class="form-control" name="title" value="{{idea.title}}" required>
         </div>
 
